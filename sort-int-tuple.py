@@ -3,6 +3,6 @@
 """
 tup = (1, 9, 89, 67, 3, 4, 12, 2, 3, 4, 0)
 tup = list(tup)
-tup.sort()
+tup = sorted(tup)
 
 print(tuple(tup))
