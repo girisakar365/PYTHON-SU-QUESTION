@@ -2,14 +2,11 @@
 WAP that inputs a list, replicates it twice and then prints the sorted list in ascending and descending orders
 """
 
-input_list = input("Enter a list: ").split(",")
+list = eval(input("Enter a list: "))
 
-list = []
+list = list * 2
 
-for i in input_list:
-  list.append(int(i))
-
-print([list] * 2)
+print("replicated list:",list)
 
 list.sort()
 
